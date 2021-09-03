@@ -1,0 +1,43 @@
+*
+{
+margin:0px;
+padding:0px;
+}
+
+body
+{
+width:100vw;
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:space-around;
+background:#5e5485
+}
+div
+{
+width:500px;
+height:200px;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction: column;
+color:grey;
+font-family:"Lucida Console", "Courier New", monospace;
+}
+button
+{
+width:150px;
+height:60px;
+color:white;
+font-weight:20px;
+font-size:200%;
+border:none;
+border-radius:10px;
+box-shadow:2px 2px 3px grey;
+background:#f2bf16}
+.line
+{
+height:600px;
+width:0px;
+border:2.5px solid black;
+}
